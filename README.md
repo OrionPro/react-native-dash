@@ -5,7 +5,7 @@ A super simple `<Dash />` component for react-native to draw customisable dashed
 
 ## Installation
 ```sh
-npm i --save react-native-dash
+npm i --save orionpro/react-native-dash or yarn add orionpro/react-native-dash --save
 ```
 
 ## Props
