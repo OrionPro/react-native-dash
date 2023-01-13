@@ -14,6 +14,8 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _reactNative = require('react-native');
 
+var _reactNativeProps=require("deprecated-react-native-prop-types");
+
 var _reactNativeMeasureme = require('react-native-measureme');
 
 var _reactNativeMeasureme2 = _interopRequireDefault(_reactNativeMeasureme);
@@ -54,12 +56,12 @@ var styles = _reactNative.StyleSheet.create({
 });
 
 Dash.propTypes = {
-	style: _reactNative.ViewPropTypes.style,
+	style: _reactNativeProps.style,
 	dashGap: _propTypes2.default.number.isRequired,
 	dashLength: _propTypes2.default.number.isRequired,
 	dashThickness: _propTypes2.default.number.isRequired,
 	dashColor: _propTypes2.default.string,
-	dashStyle: _reactNative.ViewPropTypes.style
+	dashStyle: _reactNativeProps.style
 };
 
 Dash.defaultProps = {
