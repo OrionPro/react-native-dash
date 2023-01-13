@@ -1,5 +1,5 @@
 # react-native-dash
-[![NPM version](https://badge.fury.io/js/react-native-dash.svg)]0.0.12
+[![NPM version]0.0.12]
 
 A super simple `<Dash />` component for react-native to draw customisable dashed lines
 
